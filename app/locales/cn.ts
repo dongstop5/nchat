@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      : "📍 公益站负载过饱或额度用尽。请稍后再来吧。 \n👉 [捐赠版 稳定&不限额](https://mai.dongstop.link/buy/3) ",
   },
   Auth: {
     Title: "需要密码",
@@ -397,7 +397,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "📍 请自觉遵守[《生成式人工智能服务管理暂行办法》](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm) \n📍 乱码解决：关闭你的代理软件 → 新建聊天 \n📍 收藏网址：https://aix.644566.xyz/  \n👉 [捐赠版 稳定&不限额](https://mai.dongstop.link/buy/3)\n💡 有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
